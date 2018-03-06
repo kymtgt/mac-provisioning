@@ -47,7 +47,7 @@
       - rbenv
       - ruby-build
       - the_silver_searcher
-      - vim
+      #- vim
       - yarn
       - zsh
       - zsh-completions
@@ -79,8 +79,8 @@
       - gyazo
       - imageoptim
       - java6
-      - karabiner
-      - cmd-eikana
+      - karabiner-elements
+      #- cmd-eikana
       - mamp
       - sequel-pro
       - sketch
