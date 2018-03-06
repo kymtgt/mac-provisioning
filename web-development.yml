@@ -12,8 +12,6 @@
     # e.g.
     # - homebrew/binary
     homebrew_repositories:
-      - homebrew/binary
-      - homebrew/dupes
       - caskroom/cask
       - railwaycat/emacsmacport
       - sanemat/font
@@ -42,7 +40,7 @@
       - peco
       - phantomjs
       #- mysql
-      - homebrew/versions/mysql56
+      - homebrew/core/mysql56
       - nvm
       - rbenv
       - ruby-build
@@ -75,6 +73,7 @@
       - firefox
       - google-chrome
       - google-drive-file-stream
+      - google-backup-and-sync
       - google-japanese-ime
       - gyazo
       - imageoptim
