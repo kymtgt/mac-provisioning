@@ -12,6 +12,11 @@
     # e.g.
     # - homebrew/binary
     homebrew_repositories:
+      - homebrew/binary
+      - homebrew/dupes
+      - caskroom/cask
+      - railwaycat/emacsmacport
+      - sanemat/font
 
     # Managed Homebrew packages.
     #
@@ -24,18 +29,26 @@
     # install_options: string or sequence (default: none)
     homebrew_packages:
       - readline
+      - redis
       - openssl
       - { name: openssl, state: linked, install_options: force }
       - ansible
+      - docker
       - git
       - git-flow
       - heroku-toolbelt
+      - imagemagick
+      - libxml2
       - peco
+      - phantomjs
+      #- mysql
+      - homebrew/versions/mysql56
       - nvm
       - rbenv
       - ruby-build
       - the_silver_searcher
       - vim
+      - yarn
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
@@ -53,16 +66,27 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
-      - firefox-ja
-      - flash
+      - adobe-creative-cloud
+      - clipy
+      - coteditor
+      - cyberduck
+      - docker
+      - dropbox
+      - firefox
       - google-chrome
+      - google-drive-file-stream
       - google-japanese-ime
-      - iterm2
+      - gyazo
+      - imageoptim
       - java6
       - karabiner
-      - phpstorm
-      - rubymine
+      - cmd-eikana
+      - mamp
+      - sequel-pro
+      - sketch
+      - sketch-toolbox
+      - skitch
       - slack
       - sublime-text
-      - vagrant
-      - virtualbox
+      - sourcetree
+      - 1password
