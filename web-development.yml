@@ -34,6 +34,7 @@
       - docker
       - git
       - git-flow
+      - git-lfs
       - heroku-toolbelt
       - imagemagick
       - libxml2
