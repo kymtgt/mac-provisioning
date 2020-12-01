@@ -31,7 +31,8 @@
       - openssl
       - { name: openssl, state: linked, install_options: force }
       - ansible
-      - docker
+      #- docker
+      - ffmpeg
       - git
       - git-flow
       - git-lfs
@@ -65,15 +66,14 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
+      - 1password
       - adobe-creative-cloud
       - clipy
       - coteditor
       - cyberduck
-      - docker
       - dropbox
       - firefox
-      - google-chrome
-      - google-drive-file-stream
+      #- google-chrome
       - google-backup-and-sync
       - google-japanese-ime
       - gyazo
@@ -88,5 +88,4 @@
       - skitch
       - slack
       - sublime-text
-      - sourcetree
-      - 1password
+      - zoomus
