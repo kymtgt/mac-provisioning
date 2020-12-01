@@ -72,6 +72,7 @@
       - coteditor
       - cyberduck
       - dropbox
+      - figma
       - firefox
       #- google-chrome
       - google-backup-and-sync
@@ -80,6 +81,7 @@
       - imageoptim
       - java6
       - karabiner-elements
+      - krips
       #- cmd-eikana
       - mamp
       - sequel-pro
@@ -88,4 +90,4 @@
       - skitch
       - slack
       - sublime-text
-      - zoomus
+      - zoom
